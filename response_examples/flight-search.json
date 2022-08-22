@@ -1,0 +1,905 @@
+{
+  "meta": {
+    "count": 7,
+    "links": {
+      "self": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=LON&destinationLocationCode=SFO&departureDate=2022-09-02&adults=1&max=7"
+    }
+  },
+  "data": [
+    {
+      "type": "flight-offer",
+      "id": "1",
+      "source": "GDS",
+      "instantTicketingRequired": false,
+      "nonHomogeneous": false,
+      "oneWay": false,
+      "lastTicketingDate": "2022-08-18",
+      "numberOfBookableSeats": 9,
+      "itineraries": [
+        {
+          "duration": "PT16H30M",
+          "segments": [
+            {
+              "departure": {
+                "iataCode": "LHR",
+                "terminal": "2",
+                "at": "2022-09-02T06:00:00"
+              },
+              "arrival": {
+                "iataCode": "LIS",
+                "terminal": "1",
+                "at": "2022-09-02T08:40:00"
+              },
+              "carrierCode": "TP",
+              "number": "1363",
+              "aircraft": {
+                "code": "32Q"
+              },
+              "operating": {
+                "carrierCode": "TP"
+              },
+              "duration": "PT2H40M",
+              "id": "13",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            },
+            {
+              "departure": {
+                "iataCode": "LIS",
+                "terminal": "1",
+                "at": "2022-09-02T09:50:00"
+              },
+              "arrival": {
+                "iataCode": "SFO",
+                "terminal": "I",
+                "at": "2022-09-02T14:30:00"
+              },
+              "carrierCode": "TP",
+              "number": "237",
+              "aircraft": {
+                "code": "339"
+              },
+              "operating": {
+                "carrierCode": "TP"
+              },
+              "duration": "PT12H40M",
+              "id": "14",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            }
+          ]
+        }
+      ],
+      "price": {
+        "currency": "EUR",
+        "total": "368.26",
+        "base": "116.00",
+        "fees": [
+          {
+            "amount": "0.00",
+            "type": "SUPPLIER"
+          },
+          {
+            "amount": "0.00",
+            "type": "TICKETING"
+          }
+        ],
+        "grandTotal": "368.26",
+        "additionalServices": [
+          {
+            "amount": "75.00",
+            "type": "CHECKED_BAGS"
+          }
+        ]
+      },
+      "pricingOptions": {
+        "fareType": [
+          "PUBLISHED"
+        ],
+        "includedCheckedBagsOnly": false
+      },
+      "validatingAirlineCodes": [
+        "TP"
+      ],
+      "travelerPricings": [
+        {
+          "travelerId": "1",
+          "fareOption": "STANDARD",
+          "travelerType": "ADULT",
+          "price": {
+            "currency": "EUR",
+            "total": "368.26",
+            "base": "116.00"
+          },
+          "fareDetailsBySegment": [
+            {
+              "segmentId": "13",
+              "cabin": "ECONOMY",
+              "fareBasis": "UUKDSI0D",
+              "class": "U",
+              "includedCheckedBags": {
+                "quantity": 0
+              }
+            },
+            {
+              "segmentId": "14",
+              "cabin": "ECONOMY",
+              "fareBasis": "UUKDSI0D",
+              "brandedFare": "DISCOUNT",
+              "class": "U",
+              "includedCheckedBags": {
+                "quantity": 0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "flight-offer",
+      "id": "2",
+      "source": "GDS",
+      "instantTicketingRequired": false,
+      "nonHomogeneous": false,
+      "oneWay": false,
+      "lastTicketingDate": "2022-09-02",
+      "numberOfBookableSeats": 9,
+      "itineraries": [
+        {
+          "duration": "PT26H25M",
+          "segments": [
+            {
+              "departure": {
+                "iataCode": "LGW",
+                "terminal": "S",
+                "at": "2022-09-02T17:05:00"
+              },
+              "arrival": {
+                "iataCode": "IST",
+                "at": "2022-09-02T23:10:00"
+              },
+              "carrierCode": "TK",
+              "number": "1998",
+              "aircraft": {
+                "code": "321"
+              },
+              "operating": {
+                "carrierCode": "TK"
+              },
+              "duration": "PT4H5M",
+              "id": "9",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            },
+            {
+              "departure": {
+                "iataCode": "IST",
+                "at": "2022-09-03T08:10:00"
+              },
+              "arrival": {
+                "iataCode": "SFO",
+                "terminal": "I",
+                "at": "2022-09-03T11:30:00"
+              },
+              "carrierCode": "TK",
+              "number": "289",
+              "aircraft": {
+                "code": "789"
+              },
+              "operating": {
+                "carrierCode": "TK"
+              },
+              "duration": "PT13H20M",
+              "id": "10",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            }
+          ]
+        }
+      ],
+      "price": {
+        "currency": "EUR",
+        "total": "843.33",
+        "base": "449.00",
+        "fees": [
+          {
+            "amount": "0.00",
+            "type": "SUPPLIER"
+          },
+          {
+            "amount": "0.00",
+            "type": "TICKETING"
+          }
+        ],
+        "grandTotal": "843.33"
+      },
+      "pricingOptions": {
+        "fareType": [
+          "PUBLISHED"
+        ],
+        "includedCheckedBagsOnly": true
+      },
+      "validatingAirlineCodes": [
+        "TK"
+      ],
+      "travelerPricings": [
+        {
+          "travelerId": "1",
+          "fareOption": "STANDARD",
+          "travelerType": "ADULT",
+          "price": {
+            "currency": "EUR",
+            "total": "843.33",
+            "base": "449.00"
+          },
+          "fareDetailsBySegment": [
+            {
+              "segmentId": "9",
+              "cabin": "ECONOMY",
+              "fareBasis": "SLN2PXOW",
+              "class": "S",
+              "includedCheckedBags": {
+                "quantity": 2
+              }
+            },
+            {
+              "segmentId": "10",
+              "cabin": "ECONOMY",
+              "fareBasis": "SLN2PXOW",
+              "brandedFare": "RS",
+              "class": "S",
+              "includedCheckedBags": {
+                "quantity": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "flight-offer",
+      "id": "3",
+      "source": "GDS",
+      "instantTicketingRequired": false,
+      "nonHomogeneous": false,
+      "oneWay": false,
+      "lastTicketingDate": "2022-09-02",
+      "numberOfBookableSeats": 9,
+      "itineraries": [
+        {
+          "duration": "PT21H20M",
+          "segments": [
+            {
+              "departure": {
+                "iataCode": "LHR",
+                "terminal": "2",
+                "at": "2022-09-02T22:10:00"
+              },
+              "arrival": {
+                "iataCode": "IST",
+                "at": "2022-09-03T04:00:00"
+              },
+              "carrierCode": "TK",
+              "number": "1984",
+              "aircraft": {
+                "code": "321"
+              },
+              "operating": {
+                "carrierCode": "TK"
+              },
+              "duration": "PT3H50M",
+              "id": "7",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            },
+            {
+              "departure": {
+                "iataCode": "IST",
+                "at": "2022-09-03T08:10:00"
+              },
+              "arrival": {
+                "iataCode": "SFO",
+                "terminal": "I",
+                "at": "2022-09-03T11:30:00"
+              },
+              "carrierCode": "TK",
+              "number": "289",
+              "aircraft": {
+                "code": "789"
+              },
+              "operating": {
+                "carrierCode": "TK"
+              },
+              "duration": "PT13H20M",
+              "id": "8",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            }
+          ]
+        }
+      ],
+      "price": {
+        "currency": "EUR",
+        "total": "889.41",
+        "base": "449.00",
+        "fees": [
+          {
+            "amount": "0.00",
+            "type": "SUPPLIER"
+          },
+          {
+            "amount": "0.00",
+            "type": "TICKETING"
+          }
+        ],
+        "grandTotal": "889.41"
+      },
+      "pricingOptions": {
+        "fareType": [
+          "PUBLISHED"
+        ],
+        "includedCheckedBagsOnly": true
+      },
+      "validatingAirlineCodes": [
+        "TK"
+      ],
+      "travelerPricings": [
+        {
+          "travelerId": "1",
+          "fareOption": "STANDARD",
+          "travelerType": "ADULT",
+          "price": {
+            "currency": "EUR",
+            "total": "889.41",
+            "base": "449.00"
+          },
+          "fareDetailsBySegment": [
+            {
+              "segmentId": "7",
+              "cabin": "ECONOMY",
+              "fareBasis": "SLN2PXOW",
+              "class": "S",
+              "includedCheckedBags": {
+                "quantity": 2
+              }
+            },
+            {
+              "segmentId": "8",
+              "cabin": "ECONOMY",
+              "fareBasis": "SLN2PXOW",
+              "brandedFare": "RS",
+              "class": "S",
+              "includedCheckedBags": {
+                "quantity": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "flight-offer",
+      "id": "4",
+      "source": "GDS",
+      "instantTicketingRequired": false,
+      "nonHomogeneous": false,
+      "oneWay": false,
+      "lastTicketingDate": "2022-09-02",
+      "numberOfBookableSeats": 9,
+      "itineraries": [
+        {
+          "duration": "PT25H10M",
+          "segments": [
+            {
+              "departure": {
+                "iataCode": "LHR",
+                "terminal": "2",
+                "at": "2022-09-02T18:20:00"
+              },
+              "arrival": {
+                "iataCode": "IST",
+                "at": "2022-09-03T00:10:00"
+              },
+              "carrierCode": "TK",
+              "number": "1972",
+              "aircraft": {
+                "code": "333"
+              },
+              "operating": {
+                "carrierCode": "TK"
+              },
+              "duration": "PT3H50M",
+              "id": "3",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            },
+            {
+              "departure": {
+                "iataCode": "IST",
+                "at": "2022-09-03T08:10:00"
+              },
+              "arrival": {
+                "iataCode": "SFO",
+                "terminal": "I",
+                "at": "2022-09-03T11:30:00"
+              },
+              "carrierCode": "TK",
+              "number": "289",
+              "aircraft": {
+                "code": "789"
+              },
+              "operating": {
+                "carrierCode": "TK"
+              },
+              "duration": "PT13H20M",
+              "id": "4",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            }
+          ]
+        }
+      ],
+      "price": {
+        "currency": "EUR",
+        "total": "889.41",
+        "base": "449.00",
+        "fees": [
+          {
+            "amount": "0.00",
+            "type": "SUPPLIER"
+          },
+          {
+            "amount": "0.00",
+            "type": "TICKETING"
+          }
+        ],
+        "grandTotal": "889.41"
+      },
+      "pricingOptions": {
+        "fareType": [
+          "PUBLISHED"
+        ],
+        "includedCheckedBagsOnly": true
+      },
+      "validatingAirlineCodes": [
+        "TK"
+      ],
+      "travelerPricings": [
+        {
+          "travelerId": "1",
+          "fareOption": "STANDARD",
+          "travelerType": "ADULT",
+          "price": {
+            "currency": "EUR",
+            "total": "889.41",
+            "base": "449.00"
+          },
+          "fareDetailsBySegment": [
+            {
+              "segmentId": "3",
+              "cabin": "ECONOMY",
+              "fareBasis": "SLN2PXOW",
+              "class": "S",
+              "includedCheckedBags": {
+                "quantity": 2
+              }
+            },
+            {
+              "segmentId": "4",
+              "cabin": "ECONOMY",
+              "fareBasis": "SLN2PXOW",
+              "brandedFare": "RS",
+              "class": "S",
+              "includedCheckedBags": {
+                "quantity": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "flight-offer",
+      "id": "5",
+      "source": "GDS",
+      "instantTicketingRequired": false,
+      "nonHomogeneous": false,
+      "oneWay": false,
+      "lastTicketingDate": "2022-09-02",
+      "numberOfBookableSeats": 9,
+      "itineraries": [
+        {
+          "duration": "PT26H25M",
+          "segments": [
+            {
+              "departure": {
+                "iataCode": "LHR",
+                "terminal": "2",
+                "at": "2022-09-02T22:10:00"
+              },
+              "arrival": {
+                "iataCode": "IST",
+                "at": "2022-09-03T04:00:00"
+              },
+              "carrierCode": "TK",
+              "number": "1984",
+              "aircraft": {
+                "code": "321"
+              },
+              "operating": {
+                "carrierCode": "TK"
+              },
+              "duration": "PT3H50M",
+              "id": "11",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            },
+            {
+              "departure": {
+                "iataCode": "IST",
+                "at": "2022-09-03T13:15:00"
+              },
+              "arrival": {
+                "iataCode": "SFO",
+                "terminal": "I",
+                "at": "2022-09-03T16:35:00"
+              },
+              "carrierCode": "TK",
+              "number": "79",
+              "aircraft": {
+                "code": "77W"
+              },
+              "operating": {
+                "carrierCode": "TK"
+              },
+              "duration": "PT13H20M",
+              "id": "12",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            }
+          ]
+        }
+      ],
+      "price": {
+        "currency": "EUR",
+        "total": "889.41",
+        "base": "449.00",
+        "fees": [
+          {
+            "amount": "0.00",
+            "type": "SUPPLIER"
+          },
+          {
+            "amount": "0.00",
+            "type": "TICKETING"
+          }
+        ],
+        "grandTotal": "889.41"
+      },
+      "pricingOptions": {
+        "fareType": [
+          "PUBLISHED"
+        ],
+        "includedCheckedBagsOnly": true
+      },
+      "validatingAirlineCodes": [
+        "TK"
+      ],
+      "travelerPricings": [
+        {
+          "travelerId": "1",
+          "fareOption": "STANDARD",
+          "travelerType": "ADULT",
+          "price": {
+            "currency": "EUR",
+            "total": "889.41",
+            "base": "449.00"
+          },
+          "fareDetailsBySegment": [
+            {
+              "segmentId": "11",
+              "cabin": "ECONOMY",
+              "fareBasis": "SLN2PXOW",
+              "class": "S",
+              "includedCheckedBags": {
+                "quantity": 2
+              }
+            },
+            {
+              "segmentId": "12",
+              "cabin": "ECONOMY",
+              "fareBasis": "SLN2PXOW",
+              "brandedFare": "RS",
+              "class": "S",
+              "includedCheckedBags": {
+                "quantity": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "flight-offer",
+      "id": "6",
+      "source": "GDS",
+      "instantTicketingRequired": false,
+      "nonHomogeneous": false,
+      "oneWay": false,
+      "lastTicketingDate": "2022-09-02",
+      "numberOfBookableSeats": 9,
+      "itineraries": [
+        {
+          "duration": "PT27H",
+          "segments": [
+            {
+              "departure": {
+                "iataCode": "LHR",
+                "terminal": "2",
+                "at": "2022-09-02T16:30:00"
+              },
+              "arrival": {
+                "iataCode": "IST",
+                "at": "2022-09-02T22:20:00"
+              },
+              "carrierCode": "TK",
+              "number": "1986",
+              "aircraft": {
+                "code": "359"
+              },
+              "operating": {
+                "carrierCode": "TK"
+              },
+              "duration": "PT3H50M",
+              "id": "1",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            },
+            {
+              "departure": {
+                "iataCode": "IST",
+                "at": "2022-09-03T08:10:00"
+              },
+              "arrival": {
+                "iataCode": "SFO",
+                "terminal": "I",
+                "at": "2022-09-03T11:30:00"
+              },
+              "carrierCode": "TK",
+              "number": "289",
+              "aircraft": {
+                "code": "789"
+              },
+              "operating": {
+                "carrierCode": "TK"
+              },
+              "duration": "PT13H20M",
+              "id": "2",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            }
+          ]
+        }
+      ],
+      "price": {
+        "currency": "EUR",
+        "total": "889.41",
+        "base": "449.00",
+        "fees": [
+          {
+            "amount": "0.00",
+            "type": "SUPPLIER"
+          },
+          {
+            "amount": "0.00",
+            "type": "TICKETING"
+          }
+        ],
+        "grandTotal": "889.41"
+      },
+      "pricingOptions": {
+        "fareType": [
+          "PUBLISHED"
+        ],
+        "includedCheckedBagsOnly": true
+      },
+      "validatingAirlineCodes": [
+        "TK"
+      ],
+      "travelerPricings": [
+        {
+          "travelerId": "1",
+          "fareOption": "STANDARD",
+          "travelerType": "ADULT",
+          "price": {
+            "currency": "EUR",
+            "total": "889.41",
+            "base": "449.00"
+          },
+          "fareDetailsBySegment": [
+            {
+              "segmentId": "1",
+              "cabin": "ECONOMY",
+              "fareBasis": "SLN2PXOW",
+              "class": "S",
+              "includedCheckedBags": {
+                "quantity": 2
+              }
+            },
+            {
+              "segmentId": "2",
+              "cabin": "ECONOMY",
+              "fareBasis": "SLN2PXOW",
+              "brandedFare": "RS",
+              "class": "S",
+              "includedCheckedBags": {
+                "quantity": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "flight-offer",
+      "id": "7",
+      "source": "GDS",
+      "instantTicketingRequired": false,
+      "nonHomogeneous": false,
+      "oneWay": false,
+      "lastTicketingDate": "2022-09-02",
+      "numberOfBookableSeats": 9,
+      "itineraries": [
+        {
+          "duration": "PT30H15M",
+          "segments": [
+            {
+              "departure": {
+                "iataCode": "LHR",
+                "terminal": "2",
+                "at": "2022-09-02T18:20:00"
+              },
+              "arrival": {
+                "iataCode": "IST",
+                "at": "2022-09-03T00:10:00"
+              },
+              "carrierCode": "TK",
+              "number": "1972",
+              "aircraft": {
+                "code": "333"
+              },
+              "operating": {
+                "carrierCode": "TK"
+              },
+              "duration": "PT3H50M",
+              "id": "5",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            },
+            {
+              "departure": {
+                "iataCode": "IST",
+                "at": "2022-09-03T13:15:00"
+              },
+              "arrival": {
+                "iataCode": "SFO",
+                "terminal": "I",
+                "at": "2022-09-03T16:35:00"
+              },
+              "carrierCode": "TK",
+              "number": "79",
+              "aircraft": {
+                "code": "77W"
+              },
+              "operating": {
+                "carrierCode": "TK"
+              },
+              "duration": "PT13H20M",
+              "id": "6",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            }
+          ]
+        }
+      ],
+      "price": {
+        "currency": "EUR",
+        "total": "889.41",
+        "base": "449.00",
+        "fees": [
+          {
+            "amount": "0.00",
+            "type": "SUPPLIER"
+          },
+          {
+            "amount": "0.00",
+            "type": "TICKETING"
+          }
+        ],
+        "grandTotal": "889.41"
+      },
+      "pricingOptions": {
+        "fareType": [
+          "PUBLISHED"
+        ],
+        "includedCheckedBagsOnly": true
+      },
+      "validatingAirlineCodes": [
+        "TK"
+      ],
+      "travelerPricings": [
+        {
+          "travelerId": "1",
+          "fareOption": "STANDARD",
+          "travelerType": "ADULT",
+          "price": {
+            "currency": "EUR",
+            "total": "889.41",
+            "base": "449.00"
+          },
+          "fareDetailsBySegment": [
+            {
+              "segmentId": "5",
+              "cabin": "ECONOMY",
+              "fareBasis": "SLN2PXOW",
+              "class": "S",
+              "includedCheckedBags": {
+                "quantity": 2
+              }
+            },
+            {
+              "segmentId": "6",
+              "cabin": "ECONOMY",
+              "fareBasis": "SLN2PXOW",
+              "brandedFare": "RS",
+              "class": "S",
+              "includedCheckedBags": {
+                "quantity": 2
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "dictionaries": {
+    "locations": {
+      "LHR": {
+        "cityCode": "LON",
+        "countryCode": "GB"
+      },
+      "LIS": {
+        "cityCode": "LIS",
+        "countryCode": "PT"
+      },
+      "IST": {
+        "cityCode": "IST",
+        "countryCode": "TR"
+      },
+      "SFO": {
+        "cityCode": "SFO",
+        "countryCode": "US"
+      },
+      "LGW": {
+        "cityCode": "LON",
+        "countryCode": "GB"
+      }
+    },
+    "aircraft": {
+      "321": "AIRBUS A321",
+      "333": "AIRBUS A330-300",
+      "339": "AIRBUS A330-900NEO",
+      "359": "AIRBUS A350-900",
+      "789": "BOEING 787-9",
+      "32Q": "AIRBUS A321NEO",
+      "77W": "BOEING 777-300ER"
+    },
+    "currencies": {
+      "EUR": "EURO"
+    },
+    "carriers": {
+      "TK": "TURKISH AIRLINES",
+      "TP": "TAP PORTUGAL"
+    }
+  }
+}

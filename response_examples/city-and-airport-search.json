@@ -1,0 +1,317 @@
+{
+  "meta": {
+    "count": 16,
+    "links": {
+      "self": "https://test.api.amadeus.com/v1/reference-data/locations?subType=AIRPORT,CITY&keyword=london",
+      "next": "https://test.api.amadeus.com/v1/reference-data/locations?subType=AIRPORT,CITY&keyword=london&page%5Boffset%5D=10",
+      "last": "https://test.api.amadeus.com/v1/reference-data/locations?subType=AIRPORT,CITY&keyword=london&page%5Boffset%5D=6"
+    }
+  },
+  "data": [
+    {
+      "type": "location",
+      "subType": "CITY",
+      "name": "LONDON",
+      "detailedName": "LONDON/GB",
+      "id": "CLON",
+      "self": {
+        "href": "https://test.api.amadeus.com/v1/reference-data/locations/CLON",
+        "methods": [
+          "GET"
+        ]
+      },
+      "timeZoneOffset": "+01:00",
+      "iataCode": "LON",
+      "geoCode": {
+        "latitude": 51.5,
+        "longitude": -0.16666
+      },
+      "address": {
+        "cityName": "LONDON",
+        "cityCode": "LON",
+        "countryName": "UNITED KINGDOM",
+        "countryCode": "GB",
+        "regionCode": "EUROP"
+      },
+      "analytics": {
+        "travelers": {
+          "score": 100
+        }
+      }
+    },
+    {
+      "type": "location",
+      "subType": "AIRPORT",
+      "name": "HEATHROW",
+      "detailedName": "LONDON/GB:HEATHROW",
+      "id": "ALHR",
+      "self": {
+        "href": "https://test.api.amadeus.com/v1/reference-data/locations/ALHR",
+        "methods": [
+          "GET"
+        ]
+      },
+      "timeZoneOffset": "+01:00",
+      "iataCode": "LHR",
+      "geoCode": {
+        "latitude": 51.47294,
+        "longitude": -0.45061
+      },
+      "address": {
+        "cityName": "LONDON",
+        "cityCode": "LON",
+        "countryName": "UNITED KINGDOM",
+        "countryCode": "GB",
+        "regionCode": "EUROP"
+      },
+      "analytics": {
+        "travelers": {
+          "score": 45
+        }
+      }
+    },
+    {
+      "type": "location",
+      "subType": "AIRPORT",
+      "name": "GATWICK",
+      "detailedName": "LONDON/GB:GATWICK",
+      "id": "ALGW",
+      "self": {
+        "href": "https://test.api.amadeus.com/v1/reference-data/locations/ALGW",
+        "methods": [
+          "GET"
+        ]
+      },
+      "timeZoneOffset": "+01:00",
+      "iataCode": "LGW",
+      "geoCode": {
+        "latitude": 51.15609,
+        "longitude": -0.17818
+      },
+      "address": {
+        "cityName": "LONDON",
+        "cityCode": "LON",
+        "countryName": "UNITED KINGDOM",
+        "countryCode": "GB",
+        "regionCode": "EUROP"
+      },
+      "analytics": {
+        "travelers": {
+          "score": 27
+        }
+      }
+    },
+    {
+      "type": "location",
+      "subType": "AIRPORT",
+      "name": "STANSTED",
+      "detailedName": "LONDON/GB:STANSTED",
+      "id": "ASTN",
+      "self": {
+        "href": "https://test.api.amadeus.com/v1/reference-data/locations/ASTN",
+        "methods": [
+          "GET"
+        ]
+      },
+      "timeZoneOffset": "+01:00",
+      "iataCode": "STN",
+      "geoCode": {
+        "latitude": 51.885,
+        "longitude": 0.235
+      },
+      "address": {
+        "cityName": "LONDON",
+        "cityCode": "LON",
+        "countryName": "UNITED KINGDOM",
+        "countryCode": "GB",
+        "regionCode": "EUROP"
+      },
+      "analytics": {
+        "travelers": {
+          "score": 15
+        }
+      }
+    },
+    {
+      "type": "location",
+      "subType": "AIRPORT",
+      "name": "LUTON",
+      "detailedName": "LONDON/GB:LUTON",
+      "id": "ALTN",
+      "self": {
+        "href": "https://test.api.amadeus.com/v1/reference-data/locations/ALTN",
+        "methods": [
+          "GET"
+        ]
+      },
+      "timeZoneOffset": "+01:00",
+      "iataCode": "LTN",
+      "geoCode": {
+        "latitude": 51.87472,
+        "longitude": -0.36833
+      },
+      "address": {
+        "cityName": "LONDON",
+        "cityCode": "LON",
+        "countryName": "UNITED KINGDOM",
+        "countryCode": "GB",
+        "regionCode": "EUROP"
+      },
+      "analytics": {
+        "travelers": {
+          "score": 10
+        }
+      }
+    },
+    {
+      "type": "location",
+      "subType": "AIRPORT",
+      "name": "CITY AIRPORT",
+      "detailedName": "LONDON/GB:CITY AIRPORT",
+      "id": "ALCY",
+      "self": {
+        "href": "https://test.api.amadeus.com/v1/reference-data/locations/ALCY",
+        "methods": [
+          "GET"
+        ]
+      },
+      "timeZoneOffset": "+01:00",
+      "iataCode": "LCY",
+      "geoCode": {
+        "latitude": 51.50528,
+        "longitude": 0.05528
+      },
+      "address": {
+        "cityName": "LONDON",
+        "cityCode": "LON",
+        "countryName": "UNITED KINGDOM",
+        "countryCode": "GB",
+        "regionCode": "EUROP"
+      },
+      "analytics": {
+        "travelers": {
+          "score": 4
+        }
+      }
+    },
+    {
+      "type": "location",
+      "subType": "AIRPORT",
+      "name": "LONDON ASHFORD",
+      "detailedName": "LYDD/GB:LONDON ASHFORD",
+      "id": "ALYX",
+      "self": {
+        "href": "https://test.api.amadeus.com/v1/reference-data/locations/ALYX",
+        "methods": [
+          "GET"
+        ]
+      },
+      "timeZoneOffset": "+01:00",
+      "iataCode": "LYX",
+      "geoCode": {
+        "latitude": 50.95611,
+        "longitude": 0.93917
+      },
+      "address": {
+        "cityName": "LYDD",
+        "cityCode": "LYX",
+        "countryName": "UNITED KINGDOM",
+        "countryCode": "GB",
+        "regionCode": "EUROP"
+      },
+      "analytics": {
+        "travelers": {
+          "score": 2
+        }
+      }
+    },
+    {
+      "type": "location",
+      "subType": "CITY",
+      "name": "LYDD",
+      "detailedName": "LYDD/GB",
+      "id": "CLYX",
+      "self": {
+        "href": "https://test.api.amadeus.com/v1/reference-data/locations/CLYX",
+        "methods": [
+          "GET"
+        ]
+      },
+      "timeZoneOffset": "+01:00",
+      "iataCode": "LYX",
+      "geoCode": {
+        "latitude": 50.95611,
+        "longitude": 0.93917
+      },
+      "address": {
+        "cityName": "LYDD",
+        "cityCode": "LYX",
+        "countryName": "UNITED KINGDOM",
+        "countryCode": "GB",
+        "regionCode": "EUROP"
+      },
+      "analytics": {
+        "travelers": {
+          "score": 2
+        }
+      }
+    },
+    {
+      "type": "location",
+      "subType": "AIRPORT",
+      "name": "SOUTHEND",
+      "detailedName": "LONDON/GB:SOUTHEND",
+      "id": "ASEN",
+      "self": {
+        "href": "https://test.api.amadeus.com/v1/reference-data/locations/ASEN",
+        "methods": [
+          "GET"
+        ]
+      },
+      "timeZoneOffset": "+01:00",
+      "iataCode": "SEN",
+      "geoCode": {
+        "latitude": 51.57139,
+        "longitude": 0.69556
+      },
+      "address": {
+        "cityName": "LONDON",
+        "cityCode": "LON",
+        "countryName": "UNITED KINGDOM",
+        "countryCode": "GB",
+        "regionCode": "EUROP"
+      },
+      "analytics": {
+        "travelers": {
+          "score": 1
+        }
+      }
+    },
+    {
+      "type": "location",
+      "subType": "AIRPORT",
+      "name": "BIGGIN HILL",
+      "detailedName": "LONDON/GB:BIGGIN HILL",
+      "id": "ABQH",
+      "self": {
+        "href": "https://test.api.amadeus.com/v1/reference-data/locations/ABQH",
+        "methods": [
+          "GET"
+        ]
+      },
+      "timeZoneOffset": "+01:00",
+      "iataCode": "BQH",
+      "geoCode": {
+        "latitude": 51.33083,
+        "longitude": 0.0325
+      },
+      "address": {
+        "cityName": "LONDON",
+        "cityCode": "LON",
+        "countryName": "UNITED KINGDOM",
+        "countryCode": "GB",
+        "regionCode": "EUROP"
+      }
+    }
+  ]
+}
