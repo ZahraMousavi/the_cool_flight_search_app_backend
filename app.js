@@ -11,10 +11,8 @@ const PORT = 5000;
 app.use(bodyParser.json());
 
 
-// app.use(cors());
-
 app.use(cors({
-    origin: ['http://localhost:4200', 'http://localhost:35617']
+    origin: ['http://localhost:4200']
 }));
 
 
@@ -85,7 +83,7 @@ app.post(`/flight-booking`, (req, res) => {
     // Book a flight
 
     const flight = req.body.flight;
-    const name = req.body.name
+    const name = req.body.name;
 
     amadeus.booking.flightOrders.post(
         JSON.stringify({
